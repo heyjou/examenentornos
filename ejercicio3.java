@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.*;
 
 public class ejercicio3 {
 
@@ -28,7 +29,8 @@ public class ejercicio3 {
                         case 2:
                             System.out.print("Ingrese el radio del círculo: ");
                             double radioCirculo = sc.nextDouble();
-
+                            double areaCirculo = Math.PI * Math.pow(radioCirculo, 2);
+                            System.out.print("El área del circulo es: " +areaCirculo);
                             break;
 
                         case 3:
