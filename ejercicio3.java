@@ -42,6 +42,14 @@ public class ejercicio3 {
                             System.out.print("El área del cono es: " +areaCono);
                             break;
 
+                        case 4:
+                            System.out.print("Ingrese el radio de la base del cilindro: ");
+                            double radioCilindro = sc.nextDouble();
+                            System.out.print("Ingrese la altura del cilindro: ");
+                            double alturaCilindro = sc.nextDouble();
+                            double areaCilindro = 2 * Math.PI * radioCilindro * (radioCilindro + alturaCilindro);
+                            System.out.print("El área del cilindro es: " +areaCilindro);
+
                         default:
                             System.out.println("Opción no válida. Inténtelo de nuevo.");
                     }
